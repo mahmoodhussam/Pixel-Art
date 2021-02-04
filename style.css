@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	text-align: center;
+	margin-bottom: 100px;
+}
+#heading{
+	font-family: cursive;
+	font-size: 100px;
+	letter-spacing: 5px;
+}
+.input_c{
+	text-align: center;
+	display: inline;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+#submit{
+	margin-top: 60px;
+	padding:10px 20px;
+	font-size: 15px;
+}
+.color{
+	margin-top: 40px;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+td,tr,table{
+	border:1px solid #000;
+	border-collapse: collapse;	
+}
+td{
+	padding:10px;
+}
+
+@media (max-width: 601px) {
+	.container{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#submit{
+		margin-top: 0px;
+	}
+  }
